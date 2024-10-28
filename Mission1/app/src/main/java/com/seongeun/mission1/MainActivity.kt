@@ -19,6 +19,16 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
 
+
+            
+
+
+
+
+
+
+
+
         }
         //화면 클릭을 인식
         val image1 = findViewById<ImageView>(R.id.imageView5)
