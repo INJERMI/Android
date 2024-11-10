@@ -17,13 +17,14 @@ class LockerFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentLockerBinding.inflate(inflater, container, false)
+
         val LockerAdapter = LockerVPAdapter(this)
         binding.lockerContentVp.adapter = LockerAdapter
-
         TabLayoutMediator(binding.lockerContentTb, binding.lockerContentVp){
                 tab, position ->
             tab.text = information[position]
         }.attach()
+
         return binding.root
     }
 

@@ -1,7 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("kotlin-kapt")
 }
+
 
 android {
     namespace = "com.seongeun.flo"
@@ -51,4 +53,9 @@ dependencies {
     implementation("me.relex:circleindicator:2.1.6")
     //GSON
     implementation("com.google.code.gson:gson:2.8.7")
+
+    //RoomDB
+    implementation("androidx.room:room-ktx:2.4.1")
+    implementation("androidx.room:room-runtime:2.4.1")
+    kapt("androidx.room:room-compiler:2.4.1")
 }
