@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="item"
+            type="com.seongeun.mission6.ExampleItem" />
+
+        <variable
+            name="viewModel"
+            type="com.seongeun.mission6.MainViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="여기 적힌 내용이 토스트 메시지로 출력될 거야!"
+            android:text="@{item.content}"
+            android:onClick="@{(view)->viewModel.showToastMessage(view, item.content)}"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
