@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\JO\\.gradle\\daemon\\8.7\\com.seongeun.mission6.app-mergeDebugResources-41:\\layout\\item_example.xml",
+        "source": "C:\\Users\\JO\\.gradle\\daemon\\8.7\\com.seongeun.mission6.app-main-44:\\layout\\item_example.xml"
+    },
+    {
+        "merged": "com.seongeun.mission6.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.seongeun.mission6.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\JO\\.gradle\\daemon\\8.7\\com.seongeun.mission6.app-mergeDebugResources-41:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\JO\\.gradle\\daemon\\8.7\\com.seongeun.mission6.app-main-44:\\layout\\activity_main.xml"
+    }
+]
